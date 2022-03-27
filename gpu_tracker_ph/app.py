@@ -1,22 +1,34 @@
 import os
 import json
 from . import BASE_DIR
-from flask import Flask, jsonify, Response as FlaskResponse
+from datetime import datetime
+from flask import Flask, jsonify, Response as FlaskResponse, send_from_directory
 from typing import Union
 
 Response = Union[FlaskResponse, str, dict, tuple]
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path="", static_folder="web/app")
 app.secret_key = os.environ.get("SECRET_KEY")
 
 
 @app.route("/api/")
 def api() -> Response:
-    data_dir = BASE_DIR / "gpu_tracker_ph" / "scripts" / "data"
-    latest = str(max([int(f) for f in os.listdir(data_dir) if (data_dir / f).is_dir()]))
-    files = [f for f in os.listdir(data_dir / latest) if f.endswith(".json")]
-    response = []
-    for file in files:
-        with open(data_dir / latest / file, "r") as f:
-            response.extend(json.load(f))
-    return jsonify(response)
+    db_dir = BASE_DIR / "gpu_tracker_ph" / "db" / "db.json"
+    update_time = datetime.fromtimestamp(os.lstat(db_dir).st_mtime)
+    with open(db_dir, "r") as f:
+        response = json.load(f)
+    return {
+        "updated": update_time.isoformat(),
+        "data": response,
+    }
+
+
+if os.environ.get("FLASK_ENV", "production") != "development":
+
+    @app.route("/", defaults={"path": ""})
+    @app.route("/path/<path:path>")
+    def serve(path):
+        if path != "" and os.path.exists(f"{app.static_folder}/{path}"):
+            return send_from_directory(app.static_folder, path)
+        else:
+            return send_from_directory(app.static_folder, "index.html")

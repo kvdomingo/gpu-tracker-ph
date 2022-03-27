@@ -1,0 +1,23 @@
+html,
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.05em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.1em;
+  }
+}

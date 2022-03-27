@@ -10,14 +10,12 @@ services:
     volumes:
       - .:/backend
 
-#  frontend:
-#    build:
-#      context: ./web/app
-#      target: dev
-#    image: kvdomingo/gpu-tracker-ph-api-web:latest
-#    env_file: ./web/app/.env
-#    volumes:
-#      - ./web/app:/web
+  frontend:
+    build: ./web/app
+    image: kvdomingo/gpu-tracker-ph-web:latest
+    env_file: ./web/app/.env
+    volumes:
+      - ./web/app:/web
 
   proxy:
     image: nginx:latest
