@@ -1,11 +1,10 @@
 import os
 import json
-
-from django.conf import settings
+from ... import BASE_DIR
 
 
 def clean_data() -> None:
-    data_path = settings.BASE_DIR / "scripts" / "data"
+    data_path = BASE_DIR / "scripts" / "data"
     folder = str(max([int(p) for p in os.listdir(data_path) if (data_path / p).is_dir()]))
     files = [f for f in os.listdir(data_path / folder / "raw") if "lazada" in f]
 
@@ -29,7 +28,7 @@ def clean_data() -> None:
                 )
             )
         filename = file.split("raw_")[-1]
-        with open(settings.BASE_DIR / "scripts" / "data" / folder / filename, "w+") as f:
+        with open(BASE_DIR / "scripts" / "data" / folder / filename, "w+") as f:
             json.dump(clean, f, indent=2)
 
 

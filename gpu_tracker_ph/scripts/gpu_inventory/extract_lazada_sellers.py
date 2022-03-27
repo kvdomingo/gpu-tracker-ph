@@ -1,10 +1,10 @@
 import os
 import json
-from django.conf import settings
+from ... import BASE_DIR
 
 
 def extract_sellers():
-    data_dir = settings.BASE_DIR / "scripts" / "data"
+    data_dir = BASE_DIR / "scripts" / "data"
     folder = str(max([int(f) for f in os.listdir(data_dir) if (data_dir / f).is_dir()]))
     files = [f for f in os.listdir(data_dir / folder) if f.endswith(".json")]
     data = []

@@ -1,6 +1,7 @@
 from requests import Response
 from time import sleep
 from warnings import warn
+from typing import Union
 
 
 class ExponentialBackoff:
@@ -9,7 +10,7 @@ class ExponentialBackoff:
         self.data_id = data_id
         self.timeout = [2**i for i in range(retries)]
 
-    def run(self) -> Response | None:
+    def run(self) -> Union[Response, None]:
         attempts = 1
         while True:
             if attempts == len(self.timeout):
