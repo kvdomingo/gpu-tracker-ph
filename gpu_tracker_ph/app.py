@@ -1,13 +1,14 @@
 import os
 import json
-from . import BASE_DIR
+from . import BASE_DIR, PYTHON_ENV, Response
 from datetime import datetime
-from flask import Flask, jsonify, Response as FlaskResponse, send_from_directory
-from typing import Union
+from flask import Flask, send_from_directory
 
-Response = Union[FlaskResponse, str, dict, tuple]
-
-app = Flask(__name__, static_url_path="", static_folder="web/app")
+app = Flask(
+    __name__,
+    static_url_path="",
+    static_folder=BASE_DIR / "web" / "app",
+)
 app.secret_key = os.environ.get("SECRET_KEY")
 
 
@@ -23,12 +24,11 @@ def api() -> Response:
     }
 
 
-if os.environ.get("FLASK_ENV", "production") != "development":
+if PYTHON_ENV != "development":
 
     @app.route("/", defaults={"path": ""})
-    @app.route("/path/<path:path>")
-    def serve(path):
+    @app.route("/<path:path>")
+    def serve(path: str) -> Response:
         if path != "" and os.path.exists(f"{app.static_folder}/{path}"):
             return send_from_directory(app.static_folder, path)
-        else:
-            return send_from_directory(app.static_folder, "index.html")
+        return send_from_directory(app.static_folder, "index.html")
