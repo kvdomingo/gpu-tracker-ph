@@ -3,7 +3,7 @@ import sys
 import requests
 from pathlib import Path
 from datetime import datetime
-from ... import BASE_DIR
+from .... import BASE_DIR
 
 BASE_URL = "https://dynaquestpc.com"
 

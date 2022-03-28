@@ -1,29 +1,33 @@
 [
   {
-    "id": "77398075.14904253936",
-    "name": "PowerColor Red Dragon Rx 550 Low Profile 4GBD5-HLE 4gb 128bit GDdr5 Gaming Videocard FreeSync.",
-    "price": 7295.0,
+    "id": "226736246.16006405109",
+    "name": "GPU/Video Card Quadro K2200 4GB 128bit Ddr5",
+    "price": 6500.0,
     "rating": 0,
     "reviews": 0,
-    "url": "https://shopee.ph/PowerColor-Red-Dragon-Rx-550-Low-Profile-4GBD5-HLE-4gb-128bit-GDdr5-Gaming-Videocard-FreeSync.-i.77398075.14904253936",
-    "image_url": "https://cf.shopee.ph/file/0de9385f1c60be579edd6da0b92aa153",
+    "url": "https://shopee.ph/GPU/Video-Card-Quadro-K2200-4GB-128bit-Ddr5-i.226736246.16006405109",
+    "image_url": "https://cf.shopee.ph/file/5a65c59b8aa32dfa449a973a32aba30d",
     "seller": null,
     "platform": "Shopee",
     "sold": 0,
-    "stock": 8
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
-    "id": "49044769.13655133080",
-    "name": "GALAX GeForce\u00ae GTX 1050 Ti (1-Click OC)",
-    "price": 11998.0,
+    "id": "27499410.17607603920",
+    "name": "Zotac Gaming RTX 3050 Twin Edge OC 8GB GDDR6 Video Graphics Card",
+    "price": 20999.0,
     "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/GALAX-GeForce\u00ae-GTX-1050-Ti-(1-Click-OC)-i.49044769.13655133080",
-    "image_url": "https://cf.shopee.ph/file/f98766cbd1065925b2f3b02a17959ae8",
+    "reviews": 4,
+    "url": "https://shopee.ph/Zotac-Gaming-RTX-3050-Twin-Edge-OC-8GB-GDDR6-Video-Graphics-Card-i.27499410.17607603920",
+    "image_url": "https://cf.shopee.ph/file/dcc5adda3f684d2e2c1f230e48337dc6",
     "seller": null,
     "platform": "Shopee",
-    "sold": 1,
-    "stock": 4
+    "sold": 8,
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2827269326-13698679896",
@@ -36,20 +40,9 @@
     "seller": "EasyPC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
-  },
-  {
-    "id": "27499410.17607603920",
-    "name": "Zotac Gaming RTX 3050 Twin Edge OC 8GB GDDR6 Video Graphics Card",
-    "price": 21850.0,
-    "rating": 5,
-    "reviews": 4,
-    "url": "https://shopee.ph/Zotac-Gaming-RTX-3050-Twin-Edge-OC-8GB-GDDR6-Video-Graphics-Card-i.27499410.17607603920",
-    "image_url": "https://cf.shopee.ph/file/dcc5adda3f684d2e2c1f230e48337dc6",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 8,
-    "stock": 2
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2721024422-13021809358",
@@ -62,20 +55,24 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
-    "id": "27499410.17923598382",
-    "name": "Gigabyte GeForce RTX 2060 D6 6GB GDDR6 Dual Fan Video Graphics Card",
-    "price": 23450.0,
+    "id": "50916350.9521373291",
+    "name": "PALIT GeForce RTX 3060 Dual Fan Video Graphics Card",
+    "price": 22995.0,
     "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Gigabyte-GeForce-RTX-2060-D6-6GB-GDDR6-Dual-Fan-Video-Graphics-Card-i.27499410.17923598382",
-    "image_url": "https://cf.shopee.ph/file/672d1af0d9ae3ae3caa682ae47f36314",
+    "reviews": 3,
+    "url": "https://shopee.ph/PALIT-GeForce-RTX-3060-Dual-Fan-Video-Graphics-Card-i.50916350.9521373291",
+    "image_url": "https://cf.shopee.ph/file/9934adcdd7a5d3987a070bcb09d94a74",
     "seller": null,
     "platform": "Shopee",
-    "sold": 8,
-    "stock": 5
+    "sold": 9,
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2744682786-13164176290",
@@ -88,7 +85,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "17545648.16213796643",
@@ -101,7 +100,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 0,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2790941559-13471407787",
@@ -114,7 +115,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "616038984.11086818740",
@@ -127,7 +130,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 9
+    "stock": 9,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2464694601-11272934150",
@@ -140,7 +145,9 @@
     "seller": "Funhouse",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2023809300-8936622256",
@@ -153,7 +160,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2023508900-8933534198",
@@ -166,7 +175,9 @@
     "seller": "IPASON Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "357167187.8862654679",
@@ -179,7 +190,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 56,
-    "stock": 108
+    "stock": 108,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "199257947.7990742305",
@@ -192,7 +205,24 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 16,
-    "stock": 60
+    "stock": 60,
+    "official_store": true,
+    "verified_seller": false
+  },
+  {
+    "id": "27499410.17923598382",
+    "name": "Gigabyte GeForce RTX 2060 D6 6GB GDDR6 Dual Fan Video Graphics Card",
+    "price": 24450.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Gigabyte-GeForce-RTX-2060-D6-6GB-GDDR6-Dual-Fan-Video-Graphics-Card-i.27499410.17923598382",
+    "image_url": "https://cf.shopee.ph/file/672d1af0d9ae3ae3caa682ae47f36314",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 8,
+    "stock": 5,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2783198998-13424700472",
@@ -205,7 +235,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2505816623-11519065285",
@@ -218,7 +250,9 @@
     "seller": "GIGABYTE By VIVOCOM",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2114481778-9437960394",
@@ -231,7 +265,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "219058687.5293423369",
@@ -244,7 +280,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 21,
-    "stock": 3
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "77398075.3640743077",
@@ -257,7 +295,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 30,
-    "stock": 3
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "616038984.14248338579",
@@ -270,7 +310,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 19
+    "stock": 19,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "50916350.9846745369",
@@ -283,7 +325,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "382347818.8545608828",
@@ -296,7 +340,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2725221722-13040889930",
@@ -309,7 +355,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "50916350.10833840751",
@@ -322,7 +370,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 4,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "50916350.7582246276",
@@ -335,7 +385,24 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 23,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
+  },
+  {
+    "id": "76498287.13438927824",
+    "name": "Asus Dual Radeon RX 6600 8GB GDDR6 128BIT Video Card",
+    "price": 27968.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Asus-Dual-Radeon-RX-6600-8GB-GDDR6-128BIT-Video-Card-i.76498287.13438927824",
+    "image_url": "https://cf.shopee.ph/file/90bdcc3289abc9e79bab9c62c0a420f7",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 3,
+    "stock": 8,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2660561545-12659185972",
@@ -348,7 +415,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2111461231-9424683653",
@@ -361,7 +430,9 @@
     "seller": "PChub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2669736587-12712496092",
@@ -374,20 +445,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
-  },
-  {
-    "id": "27499410.9934948376",
-    "name": "PALIT/ASUS/MSI/GIGABYTE/ZOTAC  RTX 2060/3060/3070  -  GTX 1050Ti/1650/1660 VIDEOCA",
-    "price": 28300.0,
-    "rating": 4.97,
-    "reviews": 92,
-    "url": "https://shopee.ph/PALIT/ASUS/MSI/GIGABYTE/ZOTAC--RTX-2060/3060/3070-----GTX-1050Ti/1650/1660-VIDEOCA-i.27499410.9934948376",
-    "image_url": "https://cf.shopee.ph/file/fe575d7da9601bd7485c07b0b277c5c7",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 202,
-    "stock": 8
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "8595149.4853997491",
@@ -400,7 +460,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 32,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "27499410.17107248690",
@@ -413,7 +475,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 4,
-    "stock": 12
+    "stock": 12,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2111343723-9424680691",
@@ -426,7 +490,24 @@
     "seller": "PChub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "89762129.12902261678",
+    "name": "SAPPHIRE Nitro+ Radeon RX 6600 XT 8GB GDDR6 PCI Express 4.0 ATX Graphic Card (SPR-11309-01-20G)",
+    "price": 28995.0,
+    "rating": 5,
+    "reviews": 6,
+    "url": "https://shopee.ph/SAPPHIRE-Nitro+-Radeon-RX-6600-XT-8GB-GDDR6-PCI-Express-4.0-ATX-Graphic-Card-(SPR-11309-01-20G)-i.89762129.12902261678",
+    "image_url": "https://cf.shopee.ph/file/0303cfc47068ba6e3748c08fff436de7",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 17,
+    "stock": 3,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "1733422569-7464282239",
@@ -439,7 +520,9 @@
     "seller": "ElitePC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1771784922-10649349430",
@@ -452,7 +535,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "357167187.9018441510",
@@ -464,8 +549,10 @@
     "image_url": "https://cf.shopee.ph/file/9813b2c898ab907310fc97cd8d40ef97",
     "seller": null,
     "platform": "Shopee",
-    "sold": 82,
-    "stock": 144
+    "sold": 83,
+    "stock": 144,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "199257947.8318454354",
@@ -478,7 +565,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 54,
-    "stock": 79
+    "stock": 79,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "1919570900-8195616748",
@@ -491,7 +580,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "27499410.14446760033",
@@ -503,8 +594,10 @@
     "image_url": "https://cf.shopee.ph/file/27ae1db7f1ca772f9651bd0247811271",
     "seller": null,
     "platform": "Shopee",
-    "sold": 72,
-    "stock": 3
+    "sold": 76,
+    "stock": 6,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "27499410.15142431609",
@@ -517,7 +610,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 9,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "27499410.15638450850",
@@ -530,7 +625,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 11,
-    "stock": 6
+    "stock": 5,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "1791696465-7610665636",
@@ -543,7 +640,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "122081568.15047289553",
@@ -556,7 +655,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "89762129.8551026571",
@@ -569,7 +670,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 23,
-    "stock": 9
+    "stock": 9,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "382347818.13020709027",
@@ -582,7 +685,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 16,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "382347818.12606035655",
@@ -595,7 +700,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2573022046-11994967755",
@@ -608,7 +715,9 @@
     "seller": "NVIDIA GEFORCE",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2301926687-10419200511",
@@ -621,7 +730,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2507637395-11533063348",
@@ -634,7 +745,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "77398075.7093394544",
@@ -647,20 +760,24 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 12,
-    "stock": 3
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
-    "id": "291435418.15663777547",
-    "name": "ASUS Dual RTX 3060 Ti V2 OC Edition (LHR) 8GB GDDR6 Graphics Card ( DUAL-RTX3060TI-O8G-V2 )",
-    "price": 31010.0,
+    "id": "27499410.14108215594",
+    "name": "Gigabyte Radeon RX 6600XT Gaming OC Graphics Card 6600 XT",
+    "price": 31100.0,
     "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/ASUS-Dual-RTX-3060-Ti-V2-OC-Edition-(LHR)-8GB-GDDR6-Graphics-Card-(-DUAL-RTX3060TI-O8G-V2-)-i.291435418.15663777547",
-    "image_url": "https://cf.shopee.ph/file/b3c159e0dcdcad0f5e455bae7f1b1be1",
+    "reviews": 0,
+    "url": "https://shopee.ph/Gigabyte-Radeon-RX-6600XT-Gaming-OC-Graphics-Card-6600-XT-i.27499410.14108215594",
+    "image_url": "https://cf.shopee.ph/file/ca4dc29a1af001dfab95a377a9597845",
     "seller": null,
     "platform": "Shopee",
-    "sold": 1,
-    "stock": 1
+    "sold": 10,
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2750958085-13206949282",
@@ -673,7 +790,9 @@
     "seller": "NVIDIA GEFORCE",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "77398075.12305517128",
@@ -686,7 +805,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2325581477-10550401809",
@@ -699,7 +820,24 @@
     "seller": "EasyPC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "89762129.11035828535",
+    "name": "Gigabyte Radeon RX 6600XT Gaming OC Pro 8GB GDDR6 (GV-R66XTGAMINGOC-PRO-8GD)",
+    "price": 31899.0,
+    "rating": 5,
+    "reviews": 5,
+    "url": "https://shopee.ph/Gigabyte-Radeon-RX-6600XT-Gaming-OC-Pro-8GB-GDDR6-(GV-R66XTGAMINGOC-PRO-8GD)-i.89762129.11035828535",
+    "image_url": "https://cf.shopee.ph/file/45c2f6913fb40b2d12baee2430d9ad9b",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 26,
+    "stock": 4,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2770133681-13337340155",
@@ -712,7 +850,9 @@
     "seller": "DynaQuest",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2257682672-10201968139",
@@ -725,7 +865,9 @@
     "seller": "PChub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2461948399-11256606586",
@@ -738,7 +880,9 @@
     "seller": "NetcodeX Computer Center",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1831482101-7800252790",
@@ -751,7 +895,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "121736870.15500659303",
@@ -764,7 +910,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2586183635-12127237969",
@@ -777,7 +925,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2112895537-9431362633",
@@ -790,7 +940,9 @@
     "seller": "EasyPC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1996117240-8704711826",
@@ -803,7 +955,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1771924005-7566642122",
@@ -816,7 +970,9 @@
     "seller": "IPASON Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.10039388906",
@@ -829,7 +985,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 5,
-    "stock": 3
+    "stock": 3,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "382347818.13420690288",
@@ -842,7 +1000,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "382347818.3382336051",
@@ -855,7 +1015,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "1778001177-7581760249",
@@ -868,7 +1030,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.8475938900",
@@ -881,7 +1045,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "160508572.8435566950",
@@ -894,7 +1060,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2755327182-13237629417",
@@ -907,7 +1075,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "77398075.12607949511",
@@ -920,7 +1090,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 7,
-    "stock": 3
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2127913812-9492224636",
@@ -933,7 +1105,9 @@
     "seller": "PChub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "24015545.11521702977",
@@ -946,7 +1120,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "50916350.8506299771",
@@ -959,7 +1135,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2213485907-9955542467",
@@ -972,7 +1150,9 @@
     "seller": "Pinklehub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "382347818.13732358211",
@@ -985,7 +1165,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 6,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2155745402-9625008089",
@@ -998,7 +1180,54 @@
     "seller": "want jp PC Tokyo",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "58264739.11356153222",
+    "name": "GIGABYTE Radeon RX 6600 XT GAMING OC PRO 8GB, WINDFORCE 3X Cooling System, 128-bit GDDR6 Video Card",
+    "price": 34280.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/GIGABYTE-Radeon-RX-6600-XT-GAMING-OC-PRO-8GB,-WINDFORCE-3X-Cooling-System,-128-bit-GDDR6-Video-Card-i.58264739.11356153222",
+    "image_url": "https://cf.shopee.ph/file/8e4ae22266f8a0b97542ddea8024f8cc",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 1,
+    "stock": 5,
+    "official_store": false,
+    "verified_seller": false
+  },
+  {
+    "id": "58264739.9364026928",
+    "name": "ASUS KO GeForce RTX 3060 OC 12GB GDDR6\u00a0GRAPHICS CARD (LHR)",
+    "price": 34480.0,
+    "rating": 5,
+    "reviews": 1,
+    "url": "https://shopee.ph/ASUS-KO-GeForce-RTX-3060-OC-12GB-GDDR6\u00a0GRAPHICS-CARD-(LHR)-i.58264739.9364026928",
+    "image_url": "https://cf.shopee.ph/file/30ac06d6faa4ff2f600fb3aab12fe1f6",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 1,
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
+  },
+  {
+    "id": "27499410.9934948376",
+    "name": "PALIT/ASUS/MSI/GIGABYTE/ZOTAC  RTX 2060/3060/3070  -  GTX 1050Ti/1650/1660 VIDEOCA",
+    "price": 34500.0,
+    "rating": 4.97,
+    "reviews": 92,
+    "url": "https://shopee.ph/PALIT/ASUS/MSI/GIGABYTE/ZOTAC--RTX-2060/3060/3070-----GTX-1050Ti/1650/1660-VIDEOCA-i.27499410.9934948376",
+    "image_url": "https://cf.shopee.ph/file/a4e36c1979be949bc32cb7078670f8fe",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 202,
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "1830957295-7790287320",
@@ -1011,7 +1240,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "27499410.15916350705",
@@ -1024,7 +1255,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 4,
-    "stock": 3
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "1877913543-7980326226",
@@ -1037,7 +1270,9 @@
     "seller": "GALAX",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "50916350.4083617291",
@@ -1050,7 +1285,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 8,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2377450525-10820056743",
@@ -1063,7 +1300,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2640336512-12536024979",
@@ -1076,7 +1315,9 @@
     "seller": "Gigabyte Aorus",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2404197813-10964516797",
@@ -1089,7 +1330,9 @@
     "seller": "GALAX",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2320365307-10520281661",
@@ -1102,7 +1345,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2317967675-10506991024",
@@ -1115,7 +1360,9 @@
     "seller": "NetcodeX Computer Center",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1553162773-6595686946",
@@ -1128,7 +1375,9 @@
     "seller": "LMJ INC.",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.11253117844",
@@ -1141,7 +1390,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 5,
-    "stock": 1
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "89762129.9423341958",
@@ -1154,7 +1405,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 4,
-    "stock": 2
+    "stock": 2,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "382347818.3384746601",
@@ -1167,7 +1420,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "382347818.9527372834",
@@ -1180,7 +1435,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2346829354-11967785788",
@@ -1193,7 +1450,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1498272446-12193845400",
@@ -1206,7 +1465,9 @@
     "seller": "IPASON Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "357167187.12010888718",
@@ -1219,7 +1480,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 40,
-    "stock": 34
+    "stock": 34,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "199257947.7767168602",
@@ -1232,7 +1495,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 65,
-    "stock": 18
+    "stock": 17,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "1831200678-7792556758",
@@ -1245,7 +1510,9 @@
     "seller": "OMAR PC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "24015545.7490053393",
@@ -1258,7 +1525,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2198549725-9882016722",
@@ -1271,7 +1540,9 @@
     "seller": "MAXSUN",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2222091311-9996790326",
@@ -1284,7 +1555,9 @@
     "seller": "VMall Online",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2019108460-11434527970",
@@ -1297,7 +1570,9 @@
     "seller": "Collinx Computer",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1833371346-7802020632",
@@ -1310,7 +1585,24 @@
     "seller": "Collinx Computer",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "89762129.10739395179",
+    "name": "Palit RTX 3060 TI Dual 8G GDDR6 256BIT HDMI VGA-LHR (NE6306T019P2-190AD-V1)",
+    "price": 36599.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Palit-RTX-3060-TI-Dual-8G-GDDR6-256BIT-HDMI-VGA-LHR-(NE6306T019P2-190AD-V1)-i.89762129.10739395179",
+    "image_url": "https://cf.shopee.ph/file/ee9e4a84fbb336458388821aec8670ae",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 2,
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2275978015-10270078377",
@@ -1323,7 +1615,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2507495182-11531798722",
@@ -1336,7 +1630,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.7061855723",
@@ -1349,7 +1645,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2514349209-11620457293",
@@ -1362,7 +1660,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1716292426-7409696083",
@@ -1375,7 +1675,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1627550036-10851507785",
@@ -1388,7 +1690,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2464750533-11273275040",
@@ -1401,7 +1705,9 @@
     "seller": "Funhouse",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.9091019285",
@@ -1414,7 +1720,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "382347818.11755087887",
@@ -1427,20 +1735,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 6,
-    "stock": 2
-  },
-  {
-    "id": "58264739.9364026928",
-    "name": "ASUS KO GeForce RTX 3060 OC 12GB GDDR6\u00a0GRAPHICS CARD (LHR)",
-    "price": 38480.0,
-    "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/ASUS-KO-GeForce-RTX-3060-OC-12GB-GDDR6\u00a0GRAPHICS-CARD-(LHR)-i.58264739.9364026928",
-    "image_url": "https://cf.shopee.ph/file/30ac06d6faa4ff2f600fb3aab12fe1f6",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "382347818.11855084012",
@@ -1453,7 +1750,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2352365989-10691718900",
@@ -1466,7 +1765,9 @@
     "seller": "Game Center",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2691534650-12850036580",
@@ -1479,7 +1780,9 @@
     "seller": "DynaQuest",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "314446253.10968645202",
@@ -1492,7 +1795,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2507311640-11531445810",
@@ -1505,7 +1810,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2315849159-10495304354",
@@ -1518,7 +1825,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "382347818.9595306041",
@@ -1531,7 +1840,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "382347818.12373344173",
@@ -1544,7 +1855,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "89762129.7492786482",
@@ -1557,7 +1870,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2268696151-10232476063",
@@ -1570,7 +1885,9 @@
     "seller": "EasyPC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1504508576-6259942146",
@@ -1583,20 +1900,24 @@
     "seller": "VIVOCOM TECHNOLOGIES INC",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
-    "id": "77398075.11031208539",
-    "name": "Asus RTX 3060 TI OC V2 Edition ASUS DUAL-RTX3060TI-O8G-V2 8gb 256bit GDdr6 Gaming Videocard LHR",
-    "price": 39599.0,
+    "id": "58264739.7972444967",
+    "name": "GIGABYTE GEFORCE RTX 3060 TI EAGLE OC 8GB 256-BIT GRAPHICS CARD LHR)",
+    "price": 39680.0,
     "rating": 5,
     "reviews": 1,
-    "url": "https://shopee.ph/Asus-RTX-3060-TI-OC-V2-Edition-ASUS-DUAL-RTX3060TI-O8G-V2-8gb-256bit-GDdr6-Gaming-Videocard-LHR-i.77398075.11031208539",
-    "image_url": "https://cf.shopee.ph/file/097d5b717fbe9a632344dc32f6fd94f6",
+    "url": "https://shopee.ph/GIGABYTE-GEFORCE-RTX-3060-TI-EAGLE-OC-8GB-256-BIT-GRAPHICS-CARD-LHR)-i.58264739.7972444967",
+    "image_url": "https://cf.shopee.ph/file/70af6d93dce53c9d8dbbd2fce4d89238",
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2507184048-11529980590",
@@ -1609,7 +1930,9 @@
     "seller": "Xitrix Computer Corp.",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2398088572-10924703314",
@@ -1622,7 +1945,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "291435418.13164468698",
@@ -1635,7 +1960,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2590320264-12161685527",
@@ -1648,7 +1975,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2586283886-12127917638",
@@ -1661,7 +1990,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.12312119108",
@@ -1674,7 +2005,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "127180988.11254505919",
@@ -1687,7 +2020,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "206751546.5567656999",
@@ -1700,7 +2035,24 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
+  },
+  {
+    "id": "58264739.3188118628",
+    "name": "COLORFUL IGAME GEFORCE RTX 3070 ADVANCED 8GB 256-BIT GRAPHICS CARD LHR",
+    "price": 40380.0,
+    "rating": 5,
+    "reviews": 1,
+    "url": "https://shopee.ph/COLORFUL-IGAME-GEFORCE-RTX-3070-ADVANCED-8GB-256-BIT-GRAPHICS-CARD-LHR-i.58264739.3188118628",
+    "image_url": "https://cf.shopee.ph/file/1c47c69889da7dc97471047a83adf420",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 1,
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2450755584-11193667432",
@@ -1713,7 +2065,9 @@
     "seller": "Arvantech Computer Store",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "58264739.8612263299",
@@ -1726,7 +2080,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 4,
-    "stock": 3
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "58264739.4171881115",
@@ -1739,7 +2095,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "50916350.14128121968",
@@ -1752,20 +2110,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
-  },
-  {
-    "id": "27499410.15264646105",
-    "name": "Palit Gamingpro RTX 3070 Ti 8GB GDDR6 Video Graphics Card",
-    "price": 42500.0,
-    "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Palit-Gamingpro-RTX-3070-Ti-8GB-GDDR6-Video-Graphics-Card-i.27499410.15264646105",
-    "image_url": "https://cf.shopee.ph/file/9d04c402663a808e9ee5a778a5e6cb32",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 4,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "58264739.10051287408",
@@ -1778,7 +2125,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2623487244-12425322103",
@@ -1791,7 +2140,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "206751546.11020799357",
@@ -1804,7 +2155,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2111358684-9424665687",
@@ -1817,7 +2170,24 @@
     "seller": "PChub",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "27499410.14719714344",
+    "name": "Asus TUF Gaming RTX 3060Ti, 3070Ti & 3080 Video Graphics Card",
+    "price": 43370.0,
+    "rating": 5,
+    "reviews": 1,
+    "url": "https://shopee.ph/Asus-TUF-Gaming-RTX-3060Ti,-3070Ti-&-3080-Video-Graphics-Card-i.27499410.14719714344",
+    "image_url": "https://cf.shopee.ph/file/8919f5736101b54b1c290d46a32dbee7",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 23,
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "291435418.17125913020",
@@ -1830,7 +2200,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 3
+    "stock": 4,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2335126845-10599797526",
@@ -1843,7 +2215,9 @@
     "seller": "Game Center",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2541404113-11820558461",
@@ -1856,7 +2230,9 @@
     "seller": "IPASON Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2514132720-11818565693",
@@ -1869,7 +2245,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "282506293.13205727508",
@@ -1882,33 +2260,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 11
-  },
-  {
-    "id": "27499410.14719714344",
-    "name": "Asus TUF Gaming RTX 3060Ti, 3070Ti & 3080 Video Graphics Card",
-    "price": 44600.0,
-    "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/Asus-TUF-Gaming-RTX-3060Ti,-3070Ti-&-3080-Video-Graphics-Card-i.27499410.14719714344",
-    "image_url": "https://cf.shopee.ph/file/8919f5736101b54b1c290d46a32dbee7",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 23,
-    "stock": 5
-  },
-  {
-    "id": "58264739.7972444967",
-    "name": "GIGABYTE GEFORCE RTX 3060 TI EAGLE OC 8GB 256-BIT GRAPHICS CARD LHR)",
-    "price": 44680.0,
-    "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/GIGABYTE-GEFORCE-RTX-3060-TI-EAGLE-OC-8GB-256-BIT-GRAPHICS-CARD-LHR)-i.58264739.7972444967",
-    "image_url": "https://cf.shopee.ph/file/70af6d93dce53c9d8dbbd2fce4d89238",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 2,
-    "stock": 2
+    "stock": 11,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "1565370250-6667380978",
@@ -1921,7 +2275,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2581183385-12073596359",
@@ -1934,7 +2290,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "357167187.12648468028",
@@ -1947,7 +2305,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 20,
-    "stock": 31
+    "stock": 31,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "58264739.9636617658",
@@ -1960,7 +2320,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2389536591-10881846698",
@@ -1973,7 +2335,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1784307994-7594457603",
@@ -1986,7 +2350,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.9140802413",
@@ -1999,7 +2365,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 1
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "127180988.9015476329",
@@ -2012,7 +2380,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 6,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "50916350.11271994538",
@@ -2025,7 +2395,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "1392052691-5160938760",
@@ -2038,7 +2410,24 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "58264739.5197518744",
+    "name": "GIGABYTE AORUS GeForce RTX 3060 Ti ELITE 8G Graphics Card (LHR VARIANT)",
+    "price": 46680.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/GIGABYTE-AORUS-GeForce-RTX-3060-Ti-ELITE-8G-Graphics-Card-(LHR-VARIANT)-i.58264739.5197518744",
+    "image_url": "https://cf.shopee.ph/file/8e1d8f5334d0abdd231d4b6a5a806b48",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 1,
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "191156462.13064433697",
@@ -2051,7 +2440,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2581118537-12072740014",
@@ -2064,7 +2455,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2314950634-10490587103",
@@ -2077,7 +2470,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2200977877-9892801923",
@@ -2090,7 +2485,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "291435418.17825825427",
@@ -2103,7 +2500,24 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
+  },
+  {
+    "id": "27499410.16226568243",
+    "name": "Asus ROG STRIX Geforce RTX 3070 Ti OC Edition 8GB GDDR6X Video Graphics Card",
+    "price": 47270.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Asus-ROG-STRIX-Geforce-RTX-3070-Ti-OC-Edition-8GB-GDDR6X-Video-Graphics-Card-i.27499410.16226568243",
+    "image_url": "https://cf.shopee.ph/file/8cdd7ae1189b1feea6af4914414ae35f",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 4,
+    "stock": 8,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "1707428105-7381812990",
@@ -2116,7 +2530,9 @@
     "seller": "PC LAB",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2069614383-9206155447",
@@ -2129,7 +2545,9 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1392068274-5160856759",
@@ -2142,7 +2560,9 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "58264739.9334944645",
@@ -2155,20 +2575,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 3
-  },
-  {
-    "id": "27499410.16226568243",
-    "name": "Asus ROG STRIX Geforce RTX 3070 Ti OC Edition 8GB GDDR6X Video Graphics Card",
-    "price": 49990.0,
-    "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Asus-ROG-STRIX-Geforce-RTX-3070-Ti-OC-Edition-8GB-GDDR6X-Video-Graphics-Card-i.27499410.16226568243",
-    "image_url": "https://cf.shopee.ph/file/8cdd7ae1189b1feea6af4914414ae35f",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 4,
-    "stock": 7
+    "stock": 3,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "131791632.11408637924",
@@ -2181,20 +2590,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 1
-  },
-  {
-    "id": "58264739.5197518744",
-    "name": "GIGABYTE AORUS GeForce RTX 3060 Ti ELITE 8G Graphics Card (LHR VARIANT)",
-    "price": 50680.0,
-    "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/GIGABYTE-AORUS-GeForce-RTX-3060-Ti-ELITE-8G-Graphics-Card-(LHR-VARIANT)-i.58264739.5197518744",
-    "image_url": "https://cf.shopee.ph/file/8e1d8f5334d0abdd231d4b6a5a806b48",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 1,
-    "stock": 2
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "1698078954-7340038777",
@@ -2207,7 +2605,9 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2051975010-10585485695",
@@ -2220,7 +2620,9 @@
     "seller": "Game Center",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2062841582-9164842881",
@@ -2233,7 +2635,9 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2617257549-12388583817",
@@ -2246,7 +2650,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "127180988.11347608621",
@@ -2259,7 +2665,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2331949026-10580422858",
@@ -2272,7 +2680,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2138402363-9538210919",
@@ -2285,7 +2695,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2580904787-12070665939",
@@ -2298,7 +2710,9 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "310005608.11764188354",
@@ -2311,7 +2725,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 5,
-    "stock": 20
+    "stock": 20,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "133532194.10420232037",
@@ -2324,7 +2740,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 5
+    "stock": 5,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2062870528-9165057313",
@@ -2337,20 +2755,39 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
-    "id": "77217829.10485676920",
-    "name": "ASUS FX516PM-HN097T TUF DASH F15 I5-11300H 8GB RAM 512GB SSD RTX3060 6GB GDDR6 15.6\" FHD WINDOWS 10",
-    "price": 57995.0,
+    "id": "22739277.7494600390",
+    "name": "HP EliteBook 845 / 855 G8 2021 AMD Zen 3 Model R7 5800U Radeon Graphics 14\" / 15.6\" 16G RAM 512G SSD",
+    "price": 57750.0,
     "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/ASUS-FX516PM-HN097T-TUF-DASH-F15-I5-11300H-8GB-RAM-512GB-SSD-RTX3060-6GB-GDDR6-15.6\"-FHD-WINDOWS-10-i.77217829.10485676920",
-    "image_url": "https://cf.shopee.ph/file/76f29ef28d021b50a811aa94bbf0f466",
+    "reviews": 0,
+    "url": "https://shopee.ph/HP-EliteBook-845-/-855-G8-2021-AMD-Zen-3-Model-R7-5800U-Radeon-Graphics-14\"-/-15.6\"-16G-RAM-512G-SSD-i.22739277.7494600390",
+    "image_url": "https://cf.shopee.ph/file/c5567a731f9697f418e9b055c2a406bb",
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": true
+  },
+  {
+    "id": "89762129.3676697601",
+    "name": "GIGABYTE Radeon RX 6800 GAMING OC 16GB GDDR6 Graphics Card (GV-R68GAMING-OC-16GD)",
+    "price": 59999.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/GIGABYTE-Radeon-RX-6800-GAMING-OC-16GB-GDDR6-Graphics-Card-(GV-R68GAMING-OC-16GD)-i.89762129.3676697601",
+    "image_url": "https://cf.shopee.ph/file/75e087d1a8a181a1c839bf0d914e674b",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 2,
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "1799753288-7637959238",
@@ -2363,20 +2800,9 @@
     "seller": "Megabit Technologies",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
-  },
-  {
-    "id": "199257947.3843361974",
-    "name": "Ipason Gaming PC i7 10700F GTX 1650 RTX2060 3060 3060Ti 16G DDR4 3000 RGB Memory Desktop Computer",
-    "price": 62015.0,
-    "rating": 5,
-    "reviews": 1,
-    "url": "https://shopee.ph/Ipason-Gaming-PC-i7-10700F-GTX-1650-RTX2060-3060-3060Ti-16G-DDR4-3000-RGB-Memory-Desktop-Computer-i.199257947.3843361974",
-    "image_url": "https://cf.shopee.ph/file/282e069e774344f3be4f497f2c95904d",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 1,
-    "stock": 10
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2154912090-9619731194",
@@ -2389,7 +2815,24 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "89762129.11465546605",
+    "name": "Gigabyte GeForce RTX3080 GAMING OC 10GB GDDR6X rev. 2.0 LHR Graphic Card (GV-N3080GAMING-OC-10G-2.0)",
+    "price": 63995.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Gigabyte-GeForce-RTX3080-GAMING-OC-10GB-GDDR6X-rev.-2.0-LHR-Graphic-Card-(GV-N3080GAMING-OC-10G-2.0)-i.89762129.11465546605",
+    "image_url": "https://cf.shopee.ph/file/7c2c5a5170ac4128a514ec418fd4cc32",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 2,
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2467961797-11291928881",
@@ -2402,7 +2845,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "58264739.10143831943",
@@ -2415,7 +2860,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 2
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2068463217-9199663553",
@@ -2428,7 +2875,9 @@
     "seller": "pfi_officialstore",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "58264739.3777581596",
@@ -2441,20 +2890,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 3,
-    "stock": 2
-  },
-  {
-    "id": "89762129.11465546605",
-    "name": "Gigabyte GeForce RTX3080 GAMING OC 10GB GDDR6X rev. 2.0 LHR Graphic Card (GV-N3080GAMING-OC-10G-2.0)",
-    "price": 67995.0,
-    "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Gigabyte-GeForce-RTX3080-GAMING-OC-10GB-GDDR6X-rev.-2.0-LHR-Graphic-Card-(GV-N3080GAMING-OC-10G-2.0)-i.89762129.11465546605",
-    "image_url": "https://cf.shopee.ph/file/7c2c5a5170ac4128a514ec418fd4cc32",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 2,
-    "stock": 1
+    "stock": 2,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "2350113524-10679403221",
@@ -2467,7 +2905,9 @@
     "seller": "PC Chain",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "153460743.5739906687",
@@ -2480,7 +2920,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 2,
-    "stock": 100
+    "stock": 100,
+    "official_store": false,
+    "verified_seller": false
   },
   {
     "id": "291435418.14726662583",
@@ -2493,7 +2935,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
+    "stock": 1,
+    "official_store": false,
+    "verified_seller": true
   },
   {
     "id": "2092216074-9329786746",
@@ -2506,20 +2950,9 @@
     "seller": "AMD Technology",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
-  },
-  {
-    "id": "1323828117-4837076859",
-    "name": "IPASON New Arrival Graphic Card Nvidia Geforce RTX 3080 10G Advanced HA1V GDDR6X 320Bit Gaming Desktop Graphics Card",
-    "price": 69999.0,
-    "rating": 4.67,
-    "reviews": 3,
-    "url": "https://www.lazada.com.ph/products/ipason-new-arrival-graphic-card-nvidia-geforce-rtx-3080-10g-advanced-ha1v-gddr6x-320bit-gaming-desktop-graphics-card-i1323828117-s4837076859.html?search=1",
-    "image_url": "https://ph-test-11.slatic.net/p/7b6db25656e57bb1e6d25c6f5bbd27fe.jpg",
-    "seller": "IPASON Philippines",
-    "platform": "Lazada",
-    "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1493818121-6183500952",
@@ -2532,7 +2965,9 @@
     "seller": "Digital HeadQuarters",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2550189453-11820574867",
@@ -2545,20 +2980,24 @@
     "seller": "Digi-Serv Solutions",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
-    "id": "42550301.14209294708",
-    "name": "Gigabyte Aorus 15P KD 15.6-in Full HD IPS 240Hz Display | Core i7-11800H | 16GB RAM | RTX 3060",
-    "price": 79649.0,
+    "id": "76498287.10053989524",
+    "name": "Asus TUF Gaming Radeon RX 6800 XT OC Edition 16GB GDDR6 Video Card (TUF-RX6800XT-O16G-GAMING)",
+    "price": 75495.0,
     "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Gigabyte-Aorus-15P-KD-15.6-in-Full-HD-IPS-240Hz-Display-|-Core-i7-11800H-|-16GB-RAM-|-RTX-3060-i.42550301.14209294708",
-    "image_url": "https://cf.shopee.ph/file/d0cde9df91804ae42891bc6ac92b0334",
+    "reviews": 2,
+    "url": "https://shopee.ph/Asus-TUF-Gaming-Radeon-RX-6800-XT-OC-Edition-16GB-GDDR6-Video-Card-(TUF-RX6800XT-O16G-GAMING)-i.76498287.10053989524",
+    "image_url": "https://cf.shopee.ph/file/5b82694992556a6df88be402e3140fac",
     "seller": null,
     "platform": "Shopee",
-    "sold": 2,
-    "stock": 18
+    "sold": 1,
+    "stock": 6,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2315717290-10494428809",
@@ -2571,7 +3010,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2273830230-10260296148",
@@ -2584,7 +3025,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "89762129.6868170144",
@@ -2597,20 +3040,9 @@
     "seller": null,
     "platform": "Shopee",
     "sold": 1,
-    "stock": 1
-  },
-  {
-    "id": "22739277.6395118382",
-    "name": "Lenovo Legion Y9000P / 5i Pro 2021 Model i7- 11800H RTX 3060 / 3050Ti 16.0\" 2.5K 16GB RAM 512GB SSD",
-    "price": 88200.0,
-    "rating": 5,
-    "reviews": 0,
-    "url": "https://shopee.ph/Lenovo-Legion-Y9000P-/-5i-Pro-2021-Model-i7--11800H-RTX-3060-/-3050Ti-16.0\"-2.5K-16GB-RAM-512GB-SSD-i.22739277.6395118382",
-    "image_url": "https://cf.shopee.ph/file/badb2f167b18ec4b31d4bae896bc9399",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 3,
-    "stock": 1
+    "stock": 1,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2283479945-10308875973",
@@ -2623,7 +3055,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2034023294-8984661054",
@@ -2636,7 +3070,9 @@
     "seller": "tech2027",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2077860136-9256159025",
@@ -2649,7 +3085,24 @@
     "seller": "Colorful Philippines",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
+  },
+  {
+    "id": "76498287.9118481759",
+    "name": "Asus TUF Gaming TUF-RX6900XT-O16G-GAMING AMD Radeon RX 6900 XT Graphics Card",
+    "price": 91500.0,
+    "rating": 5,
+    "reviews": 0,
+    "url": "https://shopee.ph/Asus-TUF-Gaming-TUF-RX6900XT-O16G-GAMING-AMD-Radeon-RX-6900-XT-Graphics-Card-i.76498287.9118481759",
+    "image_url": "https://cf.shopee.ph/file/67c803a41a71f91b55033dea9e87a3f2",
+    "seller": null,
+    "platform": "Shopee",
+    "sold": 2,
+    "stock": 6,
+    "official_store": true,
+    "verified_seller": false
   },
   {
     "id": "2017907434-8898437783",
@@ -2662,7 +3115,9 @@
     "seller": "GALAX",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2105604620-9399064912",
@@ -2675,7 +3130,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2413842957-11007233999",
@@ -2688,33 +3145,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
-  },
-  {
-    "id": "199257947.6953156718",
-    "name": "IPASON New Arrival Graphic Card Nvidia GeForce RTX 3080 10G GDDR6X 320Bit Gaming PC Graphics Card",
-    "price": 100000.0,
-    "rating": 4.88,
-    "reviews": 4,
-    "url": "https://shopee.ph/IPASON-New-Arrival-Graphic-Card-Nvidia-GeForce-RTX-3080-10G-GDDR6X-320Bit-Gaming-PC-Graphics-Card-i.199257947.6953156718",
-    "image_url": "https://cf.shopee.ph/file/10aebd55c0eadf3c42b9d15f0291b0a9",
-    "seller": null,
-    "platform": "Shopee",
-    "sold": 19,
-    "stock": 1
-  },
-  {
-    "id": "1267590310-4577486255",
-    "name": "IPASON New Arrival Graphic Card Nvidia Geforce RTX 3080 10G GDDR6X 320Bit Ray Tracing Support 4K Gaming Desktop Graphics Card",
-    "price": 109999.0,
-    "rating": 4.78,
-    "reviews": 9,
-    "url": "https://www.lazada.com.ph/products/ipason-new-arrival-graphic-card-nvidia-geforce-rtx-3080-10g-gddr6x-320bit-ray-tracing-support-4k-gaming-desktop-graphics-card-i1267590310-s4577486255.html?search=1",
-    "image_url": "https://ph-test-11.slatic.net/p/9ffc414285ffb5009e66f7af50cb63fc.jpg",
-    "seller": "IPASON Philippines",
-    "platform": "Lazada",
-    "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1730188728-7456476310",
@@ -2727,7 +3160,9 @@
     "seller": "PC Central",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1528954330-6455682251",
@@ -2740,7 +3175,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1532930779-6476698849",
@@ -2753,7 +3190,9 @@
     "seller": "pfi_officialstore",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "2490714442-11428968135",
@@ -2766,7 +3205,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1583094065-6758512635",
@@ -2779,7 +3220,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1529070549-6455940139",
@@ -2792,7 +3235,9 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   },
   {
     "id": "1895618433-8042656855",
@@ -2805,6 +3250,8 @@
     "seller": "IT World",
     "platform": "Lazada",
     "sold": null,
-    "stock": null
+    "stock": null,
+    "official_store": null,
+    "verified_seller": null
   }
 ]

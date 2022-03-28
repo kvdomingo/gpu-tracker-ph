@@ -47,11 +47,13 @@ def clean_data() -> None:
                     platform="Shopee",
                     sold=item["item_basic"]["historical_sold"],
                     stock=item["item_basic"]["stock"],
+                    official_store=item["item_basic"]["is_official_shop"],
+                    verified_seller=item["item_basic"]["shopee_verified"],
                 )
             )
 
     clean = sorted(clean, key=lambda item: item["price"])
-    with open(data_path / folder / "shopee_rtx_pricing.json", "w+") as f:
+    with open(data_path / folder / "shopee_pricing.json", "w+") as f:
         json.dump(clean, f, indent=2)
 
 

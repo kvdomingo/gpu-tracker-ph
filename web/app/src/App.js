@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Avatar, CircularProgress, Grid } from "@mui/material";
+import { Avatar, CircularProgress, Grid, Paper, Popper } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
+import { Check, Clear } from "@mui/icons-material";
 import dateFormat from "dateformat";
 import api from "./api";
 import "./App.css";
@@ -8,6 +9,8 @@ import "./App.css";
 function App() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [hoverRow, setHoverRow] = useState(null);
   const cols = [
     {
       field: "name",
@@ -15,7 +18,20 @@ function App() {
       flex: 1,
       renderCell: ({ row, value }) => (
         <>
-          <Avatar src={row.image_url} alt={value} variant="square" sx={{ padding: 0 }} />
+          <Avatar
+            src={row.image_url}
+            alt={value}
+            variant="square"
+            sx={{ padding: 0 }}
+            onMouseEnter={e => {
+              setAnchorEl(e.currentTarget);
+              setHoverRow(row);
+            }}
+            onMouseLeave={() => {
+              setAnchorEl(null);
+              setHoverRow(null);
+            }}
+          />
           <a href={row.url} target="_blank" rel="noopener noreferrer" style={{ padding: "0.5em" }}>
             {value}
           </a>
@@ -39,6 +55,20 @@ function App() {
       headerName: "Seller",
       valueFormatter: ({ value }) => (value == null ? "—" : value),
       minWidth: 200,
+    },
+    {
+      field: "official_store",
+      headerName: "Official Store",
+      type: "boolean",
+      renderCell: ({ value }) => (value === null ? "—" : value ? <Check /> : <Clear />),
+      minWidth: 125,
+    },
+    {
+      field: "verified_seller",
+      headerName: "Verified Seller",
+      type: "boolean",
+      renderCell: ({ value }) => (value === null ? "—" : value ? <Check /> : <Clear />),
+      minWidth: 125,
     },
     {
       field: "stock",
@@ -76,15 +106,22 @@ function App() {
       {loading ? (
         <CircularProgress size={50} disableShrink />
       ) : (
-        <DataGrid
-          columns={cols}
-          rows={data.data}
-          disableSelectionOnClick
-          density="comfortable"
-          components={{
-            Toolbar: GridToolbar,
-          }}
-        />
+        <>
+          <DataGrid
+            columns={cols}
+            rows={data.data}
+            disableSelectionOnClick
+            density="comfortable"
+            components={{
+              Toolbar: GridToolbar,
+            }}
+          />
+          <Popper open={Boolean(anchorEl)} anchorEl={anchorEl} placement="left-start">
+            <Paper sx={{ padding: 0 }}>
+              <img src={hoverRow?.image_url} alt={hoverRow?.name} height={500} />
+            </Paper>
+          </Popper>
+        </>
       )}
     </Grid>
   );

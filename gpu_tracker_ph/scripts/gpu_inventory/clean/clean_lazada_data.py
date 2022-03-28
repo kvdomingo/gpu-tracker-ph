@@ -47,11 +47,13 @@ def clean_data() -> None:
                     platform="Lazada",
                     sold=None,
                     stock=None,
+                    official_store=None,
+                    verified_seller=None,
                 )
             )
 
     clean = sorted(clean, key=lambda item: item["price"])
-    with open(data_path / folder / "lazada_rtx_pricing.json", "w+") as f:
+    with open(data_path / folder / "lazada_pricing.json", "w+") as f:
         json.dump(clean, f, indent=2)
 
 
