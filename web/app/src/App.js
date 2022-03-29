@@ -41,7 +41,7 @@ function App() {
     {
       field: "price",
       headerName: `Price (PHP${
-        !!data.updated ? ", last updated " + dateFormat(new Date(`${data.updated}Z`), "yyyy mmm d h:MM TT") : ""
+        !!data.updated ? ", last updated " + dateFormat(new Date(data.updated), "yyyy mmm d h:MM TT") : ""
       })`,
       type: "number",
       flex: 0.5,

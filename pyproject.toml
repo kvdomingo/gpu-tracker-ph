@@ -17,6 +17,8 @@ tqdm = "^4.63.1"
 pytest = "^5.2"
 black = "^22.1.0"
 watchdog = "^2.1.7"
+celery = {extras = ["redis"], version = "^5.2.3"}
+redis = "^4.2.0"
 
 [tool.black]
 line-length = 120

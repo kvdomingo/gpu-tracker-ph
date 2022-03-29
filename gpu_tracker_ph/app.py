@@ -1,7 +1,7 @@
 import os
 import json
-from . import BASE_DIR, PYTHON_ENV, Response
-from datetime import datetime
+from . import BASE_DIR, DB_DIR, UPDATE_TIME, PYTHON_ENV, Response
+from time import time
 from flask import Flask, send_from_directory
 
 app = Flask(
@@ -12,16 +12,32 @@ app = Flask(
 app.secret_key = os.environ.get("SECRET_KEY")
 
 
+def get_db():
+    with open(DB_DIR, "r") as f:
+        return "".join(f.readlines())
+
+
+if PYTHON_ENV == "development":
+    from . import redis_client as r
+
+    if not r.get("data"):
+        r.set("data", get_db())
+
+
 @app.route("/api/")
 def api() -> Response:
-    db_dir = BASE_DIR / "gpu_tracker_ph" / "db" / "db.json"
-    update_time = datetime.fromtimestamp(os.lstat(db_dir).st_mtime)
-    with open(db_dir, "r") as f:
-        response = json.load(f)
+    start = time()
+    data = get_db() if PYTHON_ENV != "development" else r.get("data")
     return {
-        "updated": update_time.isoformat(),
-        "data": response,
+        "data": json.loads(data),
+        "updated": f"{UPDATE_TIME.isoformat()}Z",
+        "took": int((time() - start) * 1000),
     }
+
+
+@app.route("/health/")
+def health() -> Response:
+    return {"status": "healthy"}
 
 
 if PYTHON_ENV != "development":
