@@ -1,17 +1,30 @@
-import { useEffect, useState } from "react";
-import { Avatar, CircularProgress, Grid, Paper, Popper } from "@mui/material";
-import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { Check, Clear } from "@mui/icons-material";
+import { Avatar, CircularProgress, Grid, Paper, Popper } from "@mui/material";
+import { DataGrid, type GridColumns, GridToolbar } from "@mui/x-data-grid";
+import { useQuery } from "@tanstack/react-query";
 import dateFormat from "dateformat";
-import api from "./api";
-import "./App.css";
+import { useRef, useState } from "react";
+import { axi } from "./api";
 
 function App() {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [anchorEl, setAnchorEl] = useState(null);
-  const [hoverRow, setHoverRow] = useState(null);
-  const cols = [
+  const [hoverRow, setHoverRow] = useState<Record<string, any> | null>(null);
+
+  const anchorRef = useRef<HTMLDivElement | null>(null);
+
+  const { data, isLoading } = useQuery({
+    queryKey: ["data"],
+    queryFn: async () => {
+      const res = await axi.get<{
+        data: Record<string, any>[];
+        updated: string;
+        took: number;
+      }>("/api");
+
+      return res.data;
+    },
+  });
+
+  const cols: GridColumns<Record<string, any>> = [
     {
       field: "name",
       headerName: "Name",
@@ -23,16 +36,21 @@ function App() {
             alt={value}
             variant="square"
             sx={{ padding: 0 }}
-            onMouseEnter={e => {
-              setAnchorEl(e.currentTarget);
+            onMouseEnter={(e) => {
+              anchorRef.current = e.currentTarget;
               setHoverRow(row);
             }}
             onMouseLeave={() => {
-              setAnchorEl(null);
+              anchorRef.current = null;
               setHoverRow(null);
             }}
           />
-          <a href={row.url} target="_blank" rel="noopener noreferrer" style={{ padding: "0.5em" }}>
+          <a
+            href={row.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ padding: "0.5em" }}
+          >
             {value}
           </a>
         </>
@@ -41,7 +59,9 @@ function App() {
     {
       field: "price",
       headerName: `Price (PHP${
-        !!data.updated ? ", last updated " + dateFormat(new Date(data.updated), "yyyy mmm d h:MM TT") : ""
+        data?.updated
+          ? `, last updated ${dateFormat(new Date(data.updated), "yyyy mmm d h:MM TT")}`
+          : ""
       })`,
       type: "number",
       flex: 0.5,
@@ -92,31 +112,26 @@ function App() {
     },
   ];
 
-  useEffect(() => {
-    setLoading(true);
-    api
-      .get()
-      .then(res => setData(res.data))
-      .catch(err => console.error(err))
-      .finally(() => setLoading(false));
-  }, []);
-
   return (
     <Grid container alignItems="center" justifyContent="center" xs={12} height="97vh">
-      {loading ? (
+      {isLoading ? (
         <CircularProgress size={50} disableShrink />
       ) : (
         <>
           <DataGrid
             columns={cols}
-            rows={data.data}
+            rows={data?.data ?? []}
             disableSelectionOnClick
             density="comfortable"
             components={{
               Toolbar: GridToolbar,
             }}
           />
-          <Popper open={Boolean(anchorEl)} anchorEl={anchorEl} placement="left-start">
+          <Popper
+            open={Boolean(anchorRef.current)}
+            anchorEl={anchorRef.current}
+            placement="left-start"
+          >
             <Paper sx={{ padding: 0 }}>
               <img src={hoverRow?.image_url} alt={hoverRow?.name} height={500} />
             </Paper>

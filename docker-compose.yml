@@ -13,7 +13,7 @@ services:
     command:
       - >
         uv sync --dev --frozen;
-        uv run fastapi dev --host 0.0.0.0 --port 8000 api/app.py;
+        exec uv run fastapi dev --host 0.0.0.0 --port 8000 api/app.py;
     environment:
       PYTHON_ENV: ${PYTHON_ENV}
       REDIS_HOST: ${REDIS_HOST}
@@ -32,7 +32,7 @@ services:
       - -c
       - >
         bun install;
-        bun run start;
+        exec bun run dev;
     volumes:
       - ./ui:/app
     ports:
