@@ -1,11 +1,13 @@
-import os
 import json
+import os
+from datetime import datetime
+from pathlib import Path
+from time import sleep
+
 import requests
 from loguru import logger
-from pathlib import Path
-from datetime import datetime
-from time import sleep
-from .... import BASE_DIR
+
+from api.settings import settings
 
 BASE_URL = "https://www.lazada.com.ph"
 
@@ -35,7 +37,7 @@ def pull_latest() -> None:
             if not data.get("mods"):
                 break
             today = datetime.now().strftime("%Y%m%d")
-            data_path = BASE_DIR / "gpu_tracker_ph" / "scripts" / "data"
+            data_path = settings.BASE_DIR / "api" / "scripts" / "data"
             if not Path(data_path / today).exists():
                 os.makedirs(data_path / today / "raw")
             data_path = data_path / today / "raw"

@@ -1,7 +1,7 @@
 {
   "name": "gpu-tracker-ph",
-  "version": "0.1.0",
-  "author": "Kenneth V. Domingo <hello@kvdomingo.xyz>",
+  "version": "0.2.0",
+  "author": "Kenneth V. Domingo <hello@kvd.studio>",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",

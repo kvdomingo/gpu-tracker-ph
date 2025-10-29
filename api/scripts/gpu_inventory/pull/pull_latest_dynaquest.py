@@ -1,9 +1,11 @@
 import os
 import sys
-import requests
-from pathlib import Path
 from datetime import datetime
-from .... import BASE_DIR
+from pathlib import Path
+
+import requests
+
+from api.settings import settings
 
 BASE_URL = "https://dynaquestpc.com"
 
@@ -20,7 +22,7 @@ def pull_latest(page: int = 1) -> None:
     if not res.ok:
         raise ConnectionError(res.status_code)
     today = datetime.now().strftime("%Y%m%d")
-    data_path = BASE_DIR / "scripts" / "data"
+    data_path = settings.BASE_DIR / "api" / "scripts" / "data"
     if not Path(data_path / today).exists():
         os.makedirs(data_path / today / "raw")
     data_path = data_path / today / "raw"

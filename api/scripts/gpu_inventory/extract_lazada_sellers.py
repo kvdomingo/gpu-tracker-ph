@@ -1,10 +1,11 @@
-import os
 import json
-from ... import BASE_DIR
+import os
+
+from api.settings import settings
 
 
 def extract_sellers():
-    data_dir = BASE_DIR / "scripts" / "data"
+    data_dir = settings.BASE_DIR / "api" / "scripts" / "data"
     folder = str(max([int(f) for f in os.listdir(data_dir) if (data_dir / f).is_dir()]))
     files = [f for f in os.listdir(data_dir / folder) if f.endswith(".json")]
     data = []
@@ -17,8 +18,12 @@ def extract_sellers():
         sellers_counts[dat["seller"]]["count"] += 1
         sellers_counts[dat["seller"]]["rating"] += dat["rating"]
     for seller in sellers_counts.keys():
-        sellers_counts[seller]["rating"] = round(sellers_counts[seller]["rating"] / sellers_counts[seller]["count"], 2)
-    sellers_counts = dict(reversed(sorted(sellers_counts.items(), key=lambda item: item[1]["count"])))
+        sellers_counts[seller]["rating"] = round(
+            sellers_counts[seller]["rating"] / sellers_counts[seller]["count"], 2
+        )
+    sellers_counts = dict(
+        reversed(sorted(sellers_counts.items(), key=lambda item: item[1]["count"]))
+    )
     with open(data_dir / "lazada_sellers.json", "w+") as f:
         json.dump(sellers_counts, f, indent=2)
 

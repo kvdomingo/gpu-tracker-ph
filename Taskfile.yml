@@ -1,32 +1,31 @@
-version: '3'
+version: "3"
 
 tasks:
   default:
+    cmd:
+      task: up
+
+  up:
     desc: Create and start containers
     cmds:
-      - docker compose up -d --build
+      - infisical run -- docker compose up --detach --build --remove-orphans {{ .CLI_ARGS }}
 
   logs:
     desc: Attach to Docker logs
     cmds:
-      - docker compose logs --follow
+      - docker compose logs --follow {{ .CLI_ARGS }}
 
-  shutdown:
+  stop:
     desc: Stop containers
     cmds:
-      - docker compose stop
+      - docker compose stop {{ .CLI_ARGS }}
 
   restart:
     desc: Restart containers
     cmds:
-      - docker compose restart
-
-  restart-proxy:
-    desc: Restart nginx container
-    cmds:
-      - docker compose restart proxy
+      - docker compose restart {{ .CLI_ARGS }}
 
   clean:
     desc: Shutdown and remove all containers
     cmds:
-      - docker compose down -v --remove-orphans
+      - docker compose down --volumes --remove-orphans {{ .CLI_ARGS }}

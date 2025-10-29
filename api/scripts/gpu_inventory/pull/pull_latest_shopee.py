@@ -1,10 +1,12 @@
-import os
 import json
-import requests
-from pathlib import Path
+import os
 from datetime import datetime
+from pathlib import Path
 from time import sleep
-from gpu_tracker_ph import BASE_DIR
+
+import requests
+
+from api.settings import settings
 
 BASE_URL = "https://shopee.ph/api/v4"
 
@@ -32,7 +34,7 @@ def pull_latest() -> None:
             if not res.ok:
                 raise ConnectionError(res.status_code)
             today = datetime.now().strftime("%Y%m%d")
-            data_path = BASE_DIR / "gpu_tracker_ph" / "scripts" / "data"
+            data_path = settings.BASE_DIR / "api" / "scripts" / "data"
             if not Path(data_path / today).exists():
                 os.makedirs(data_path / today / "raw")
             data_path = data_path / today / "raw"

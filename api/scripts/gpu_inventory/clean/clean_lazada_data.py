@@ -1,13 +1,15 @@
 import os
 import re
 import json
-from gpu_tracker_ph import BASE_DIR
+from api.settings import settings
 from . import EXCLUDED_PATTERNS
 
 
 def clean_data() -> None:
-    data_path = BASE_DIR / "gpu_tracker_ph" / "scripts" / "data"
-    folder = str(max([int(p) for p in os.listdir(data_path) if (data_path / p).is_dir()]))
+    data_path = settings.BASE_DIR / "api" / "scripts" / "data"
+    folder = str(
+        max([int(p) for p in os.listdir(data_path) if (data_path / p).is_dir()])
+    )
     files = [f for f in os.listdir(data_path / folder / "raw") if "lazada" in f]
     clean = []
 
@@ -41,7 +43,7 @@ def clean_data() -> None:
                     price=round(float(item["price"]), 2),
                     rating=round(float(item["ratingScore"]), 2),
                     reviews=int(item["review"]),
-                    url=f'https:{item["productUrl"]}',
+                    url=f"https:{item['productUrl']}",
                     image_url=item["image"],
                     seller=item["sellerName"],
                     platform="Lazada",

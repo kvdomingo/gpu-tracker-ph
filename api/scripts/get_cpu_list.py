@@ -1,10 +1,12 @@
 import io
 import json
-import requests
 import xml.etree.ElementTree as ET
+
+import requests
 from loguru import logger
 from tqdm import tqdm
-from utils import ExponentialBackoff
+
+from api.scripts.utils.exponential_backoff import ExponentialBackoff
 
 BASE_URL = "https://outervision.com"
 

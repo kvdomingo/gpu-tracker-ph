@@ -1,46 +1,23 @@
-FROM python:3.9-bullseye as base
+FROM python:3.13-bullseye
 
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV UV_VERSION=0.9.5
+ENV PATH="/root/.local/bin:/root/.cargo/bin:${PATH}"
 
-RUN pip install poetry
+WORKDIR /tmp
 
-WORKDIR /backend
+SHELL [ "/bin/bash", "-euxo", "pipefail", "-c" ]
+# hadolint ignore=DL3009
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends curl ca-certificates
 
-COPY poetry.lock pyproject.toml ./
+ADD https://astral.sh/uv/${UV_VERSION}/install.sh install-uv.sh
 
-RUN poetry config virtualenvs.create false
+SHELL [ "/bin/sh", "-eu", "-c" ]
+RUN chmod +x /tmp/install-uv.sh && /tmp/install-uv.sh
 
-FROM base as dev
+WORKDIR /app
 
-WORKDIR /backend
-
-RUN poetry install --no-interaction --no-ansi
-
-ENTRYPOINT gunicorn wsgi -b 0.0.0.0:5000 -w 4 --log-file - --capture-output --reload
-
-FROM node:16-alpine as build
-
-WORKDIR /web
-
-COPY ./web/app/package.json ./web/app/yarn.lock ./
-
-RUN yarn install --prod
-
-COPY ./web/app ./
-
-RUN yarn build
-
-FROM base as prod
-
-WORKDIR /backend
-
-RUN poetry install --no-interaction --no-ansi --no-dev
-
-COPY ./gpu_tracker_ph/ ./gpu_tracker_ph/
-COPY ./*.py ./
-COPY --from=build /web/build ./web/app
-
-EXPOSE $PORT
-
-ENTRYPOINT gunicorn wsgi -b 0.0.0.0:$PORT -w 2 --log-file -
+ENTRYPOINT [ "/bin/bash", "-euxo", "pipefail", "-c" ]

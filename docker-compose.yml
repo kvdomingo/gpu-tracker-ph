@@ -1,47 +1,51 @@
-version: "3.8"
-
-services:
-  apiserver:
-    build:
-      context: .
-      target: dev
-    image: kvdomingo/gpu-tracker-ph-api:latest
-    env_file: .env
-    volumes:
-      - .:/backend
-
-  frontend:
-    build: ./web/app
-    image: kvdomingo/gpu-tracker-ph-web:latest
-    env_file: ./web/app/.env
-    volumes:
-      - ./web/app:/web
-
-  proxy:
-    image: nginx:latest
-    ports:
-      - 8000:8000
-    command:
-      - nginx
-      - "-g"
-      - daemon off;
-    volumes:
-      - ./proxy/nginx.conf:/etc/nginx/nginx.conf:ro
-    depends_on:
-      - apiserver
-    restart: unless-stopped
-
-  redis:
-    image: bitnami/redis:latest
-    environment:
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
-    volumes:
-      - db-data:/bitnami/redis/data
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
-      interval: 1s
-      timeout: 3s
-      retries: 5
+name: gpu-tracker-ph
 
 volumes:
   db-data:
+
+services:
+  api:
+    build: .
+    image: kvdomingo/gpu-tracker-ph-api:latest
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    command:
+      - >
+        uv sync --dev --frozen;
+        uv run fastapi dev --host 0.0.0.0 --port 8000 api/app.py;
+    environment:
+      PYTHON_ENV: ${PYTHON_ENV}
+      REDIS_HOST: ${REDIS_HOST}
+      REDIS_PORT: ${REDIS_PORT}
+      SECRET_KEY: ${SECRET_KEY}
+    ports:
+      - 8000:8000
+
+  ui:
+    image: oven/bun:1-alpine
+    restart: unless-stopped
+    working_dir: /app
+    command:
+      - /bin/sh
+      - -eu
+      - -c
+      - >
+        bun install;
+        bun run start;
+    volumes:
+      - ./ui:/app
+    ports:
+      - 3000:3000
+
+  redis:
+    image: redis:8
+    volumes:
+      - db-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 20s
+      timeout: 2s
+      retries: 3
+    ports:
+      - 6379:6379
