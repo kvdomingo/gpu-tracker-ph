@@ -1,5 +1,8 @@
 import { QueryClient } from "@tanstack/react-query";
 import axios from "axios";
+import createFetchClient from "openapi-fetch";
+import createClient from "openapi-react-query";
+import type { paths } from "./generated";
 
 const baseURL = "/api/";
 
@@ -19,3 +22,9 @@ export const queryClient = new QueryClient({
     },
   },
 });
+
+export const fetchClient = createFetchClient<paths>({
+  baseUrl: "/api",
+});
+
+export const $api = createClient(fetchClient);

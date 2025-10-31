@@ -6,6 +6,7 @@ readme = "README.md"
 authors = [{ name = "Kenneth V. Domingo", email = "hello@kvd.studio" }]
 requires-python = "~=3.13.0"
 dependencies = [
+    "asyncpg>=0.30.0",
     "fastapi[standard]>=0.120.2",
     "itsdangerous>=2.2.0",
     "loguru>=0.7.3",
@@ -13,6 +14,7 @@ dependencies = [
     "pydantic>=2.12.3",
     "pydantic-settings>=2.11.0",
     "requests>=2.32.5",
+    "sqlalchemy>=2.0.44",
     "tqdm>=4.67.1",
     "uvicorn>=0.38.0",
 ]

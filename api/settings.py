@@ -4,7 +4,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import SecretStr, computed_field
+from pydantic import PostgresDsn, SecretStr, computed_field
 from pydantic_settings import BaseSettings
 
 
@@ -16,6 +16,12 @@ class Settings(BaseSettings):
     REDIS_PORT: int
 
     SECRET_KEY: SecretStr
+
+    POSTGRES_HOST: str
+    POSTGRES_PORT: int
+    POSTGRES_USER: SecretStr
+    POSTGRES_PASSWORD: SecretStr
+    POSTGRES_DB: str
 
     @computed_field
     @property
@@ -31,6 +37,18 @@ class Settings(BaseSettings):
     @property
     def UPDATE_TIME(self) -> datetime:
         return datetime.fromtimestamp(os.lstat(self.DB_DIR).st_mtime)
+
+    @computed_field
+    @property
+    def POSTGRES_URL(self) -> str:
+        return PostgresDsn.build(
+            scheme="postgresql+asyncpg",
+            username=self.POSTGRES_USER.get_secret_value(),
+            password=self.POSTGRES_PASSWORD.get_secret_value(),
+            host=self.POSTGRES_HOST,
+            port=self.POSTGRES_PORT,
+            path=self.POSTGRES_DB,
+        ).encoded_string()
 
 
 @lru_cache
